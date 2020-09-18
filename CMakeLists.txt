@@ -12,10 +12,10 @@ option(ENABLE_CONAN         "Use Conan as a package manager."       OFF)
 include(cmake/config.cmake)
 
 # Project source compilation
-include_directories(inc)
-add_library(operations SHARED src/operations.cpp inc/operations/operations.hpp)
+# include_directories(inc)
+# add_library(operations SHARED src/operations.cpp inc/operations/operations.hpp)
 add_executable(add src/main.cpp)
-target_link_libraries(add operations)
+# target_link_libraries(add operations)
 
 # Add external packages
 find_package(Boost 1.71.0 COMPONENTS program_options REQUIRED)
