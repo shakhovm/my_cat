@@ -1,8 +1,8 @@
-# Lab 2 Option 3: Adder
+# Lab 2 Option 3: mycat
 
 ## Team
 
- - [Volodymyr Chernetskyi](https://github.com/chernetskyi)
+ - [Shakhov Mykhailo, Titov Ihor](https://github.com/shakhovm, https://github.com/lurak)
 
 ## Prerequisites
 
